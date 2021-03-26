@@ -15,8 +15,8 @@
     {% endfor %} -->
 
     <!-- Method 2 -->
-    {% for list_item in list_of_values %}
-        {% include 'personal/snippets/body_snippets.html' with value=list_item %}
+    {% for question in questions %}
+        {% include 'personal/snippets/body_snippets.html' with value=question %}
     {% endfor %}
 </div>
 
